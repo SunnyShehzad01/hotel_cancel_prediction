@@ -31,8 +31,7 @@ def main():
                                 2 if x=='Wed' else 
                                 3 if x=='Thu' else 
                                 4 if x=='Fri' else 
-                                5 if x=='Sat' else 
-                                6 if x=='Sun')
+                                5 if x=='Sat' else 6)
     arr_w = weekd_lambda(st.selectbox('Weekday of Arrival', ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']))
     dep_w = weekd_lambda(st.selectbox('Weekday of Departure', ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']))
     weekn = st.text_input('Enter the no of week nights in stay')
